@@ -12,6 +12,25 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Quick Answer callout */}
+      <div className="max-w-2xl mx-auto px-6 my-8">
+        <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6">
+          <p className="text-xs font-semibold uppercase tracking-widest text-indigo-400 mb-2">Quick Answer</p>
+          <p className="text-xl font-semibold text-neutral-900 mb-2">Best AI tutor for kids right now: Wild Zebra</p>
+          <p className="text-base text-neutral-600 leading-relaxed mb-5">
+            It&apos;s the only tool I&apos;ve found that explicitly commits to persistent memory of your child&apos;s interests and learning style, not just adaptive difficulty.
+          </p>
+          <a
+            href="https://wildzebra.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
+          >
+            Try Wild Zebra free for 14 days
+          </a>
+        </div>
+      </div>
+
       {/* 2. What I mean by AI tutor */}
       <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I mean by AI tutor</h2>
