@@ -7,29 +7,27 @@ export default function Home() {
 
       <main className="bg-white text-neutral-900">
 
-        {/* 1. Hero — white bg for transparent image blending, two-column on lg+ */}
+        {/* 1. Hero — full viewport width, image left edge aligns with nav */}
         <div className="bg-white">
-          <section className="max-w-5xl mx-auto px-6 py-10 lg:py-14">
-            <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-              {/* Left: image — 50% on desktop, full width on mobile */}
-              <div className="w-full lg:w-1/2">
-                <img
-                  src="/hero-image.png.png"
-                  alt="A dad helping his son with AI tutoring"
-                  className="w-full h-auto"
-                />
-              </div>
-              {/* Right: text — 50% on desktop */}
-              <div className="w-full lg:w-1/2 px-6 lg:px-0 text-center lg:text-left">
-                <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
-                  AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
-                </h1>
-                <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                  I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
-                </p>
-              </div>
+          <div className="flex flex-col lg:flex-row lg:items-center w-full py-10 lg:py-14">
+            {/* Left: image — pl matches nav px-6/px-8 exactly */}
+            <div className="w-full lg:w-1/2 pl-6 lg:pl-8">
+              <img
+                src="/hero-image.png.png"
+                alt="A dad helping his son with AI tutoring"
+                className="w-full h-auto"
+              />
             </div>
-          </section>
+            {/* Right: text */}
+            <div className="w-full lg:w-1/2 px-6 lg:px-12 py-10 lg:py-0 text-center lg:text-left">
+              <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
+                AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
+              </h1>
+              <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+                I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Quick Answer callout — white band, indigo card */}
