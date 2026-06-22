@@ -9,7 +9,7 @@ export default function Home() {
 
         {/* 1. Hero — shared max-w-4xl container matches nav exactly */}
         <div className="bg-white">
-          <div className="max-w-5xl mx-auto px-8 py-10">
+          <div className="max-w-7xl mx-auto px-8 py-10">
             <div className="flex flex-col lg:flex-row items-center gap-12">
               {/* Left: image — 1/2 of container */}
               <div className="w-full lg:w-1/2">
@@ -19,8 +19,8 @@ export default function Home() {
                   className="w-full h-auto max-h-72 lg:max-h-none object-contain"
                 />
               </div>
-              {/* Right: text — 1/2, vertically centered */}
-              <div className="w-full lg:w-1/2 flex flex-col justify-center text-center lg:text-left">
+              {/* Right: text — 1/2, offset from top */}
+              <div className="w-full lg:w-1/2 flex flex-col justify-center pt-8 text-center lg:text-left">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
                   AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
                 </h1>
