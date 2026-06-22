@@ -3,7 +3,7 @@ export default function Home() {
     <main className="bg-white text-neutral-900">
 
       {/* 1. Hero */}
-      <section className="max-w-2xl mx-auto px-6 pt-20 pb-16">
+      <section className="max-w-4xl mx-auto px-6 pt-20 pb-16">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
           AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
         </h1>
@@ -13,7 +13,7 @@ export default function Home() {
       </section>
 
       {/* 2. What I mean by AI tutor */}
-      <section className="max-w-2xl mx-auto px-6 py-12 border-t border-neutral-100">
+      <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I mean by AI tutor</h2>
         <p className="text-base text-neutral-600 leading-relaxed mb-8">
           When I say AI tutor, I mean something specific. Not a program that adjusts difficulty on the fly. Not a quiz engine that tracks right and wrong answers. Something closer to what a good human tutor actually does. Here are the three things I used to evaluate everything I looked at.
@@ -44,7 +44,7 @@ export default function Home() {
       </section>
 
       {/* 3. What I've ruled out */}
-      <section className="max-w-2xl mx-auto px-6 py-12 border-t border-neutral-100">
+      <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I&apos;ve ruled out and why</h2>
         <p className="text-base text-neutral-600 leading-relaxed mb-7">
           Two well-known names parents ask about:
@@ -66,7 +66,7 @@ export default function Home() {
       </section>
 
       {/* 4. What I've actually tried */}
-      <section className="max-w-2xl mx-auto px-6 py-12 border-t border-neutral-100">
+      <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-8">
           Three tools worth your time (and one that&apos;s earning the top spot)
         </h2>
@@ -215,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* 5. A note on ChatGPT wrappers */}
-      <section className="max-w-2xl mx-auto px-6 py-12 border-t border-neutral-100">
+      <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-5">A note on ChatGPT wrappers</h2>
         <p className="text-base text-neutral-600 leading-relaxed">
           You&apos;ll find plenty of other tools calling themselves AI tutors. Most are what I&apos;d call ChatGPT wrappers: a clean interface layered on top of a general-purpose AI model, with no persistent memory of your child and no particular commitment to mastery over answer-getting. TutorAI is a good example. Their own marketing calls it personalized, but there&apos;s nothing in the product that pushes a child to understand why, not just what. That&apos;s not a tutor. That&apos;s a very fast homework helper. The three tools above are the ones I think are actually building toward what AI tutoring should be.
@@ -223,7 +223,7 @@ export default function Home() {
       </section>
 
       {/* 6. What I'm watching for */}
-      <section className="max-w-2xl mx-auto px-6 py-12 border-t border-neutral-100">
+      <section className="max-w-4xl mx-auto px-6 py-12 border-t border-neutral-100">
         <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I&apos;m watching for</h2>
         <p className="text-base text-neutral-600 leading-relaxed">
           None of these tools have fully cracked it yet. The version I&apos;m waiting for is an AI tutor with a deep, persistent understanding of my child built over years, not sessions. One that knows he gets frustrated when problems feel arbitrary, that he lights up when math connects to something real, and that he needs to be pushed even when he gets the right answer. That product doesn&apos;t fully exist yet. Wild Zebra is the closest I&apos;ve seen to building toward it.
@@ -232,7 +232,7 @@ export default function Home() {
 
       {/* 7. About this site / footer */}
       <footer className="border-t border-neutral-200 bg-neutral-50 mt-4">
-        <div className="max-w-2xl mx-auto px-6 py-12">
+        <div className="max-w-4xl mx-auto px-6 py-12">
           <h2 className="text-2xl font-semibold text-neutral-900 mb-5">About this site</h2>
           <p className="text-base text-neutral-600 leading-relaxed">
             I&apos;m a dad and a marketing operator who spent 12 years scaling growth for tech companies. I built this site to learn about digital attribution and because I got genuinely curious about this category after going deep with several AI tutoring companies. I have no formal affiliation with any of the products listed here. If I earn an affiliate commission from a link on this page, I&apos;ll say so clearly. Right now, I don&apos;t.
