@@ -9,23 +9,25 @@ export default function Home() {
 
         {/* 1. Hero — slate-50 full bleed, two-column on lg+ */}
         <div className="bg-slate-50">
-          <section className="flex flex-col lg:flex-row lg:items-stretch">
-            {/* Left: image column, fixed height on all sizes */}
-            <div className="w-full lg:w-1/2 h-72 lg:h-96 overflow-hidden">
-              <img
-                src="/hero-image.png.png"
-                alt="A dad helping his son with AI tutoring"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            {/* Right: text with breathing room */}
-            <div className="w-full lg:w-1/2 px-6 lg:pl-12 lg:pr-16 py-10 lg:py-16 text-center lg:text-left flex flex-col justify-center">
-              <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
-                AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
-              </h1>
-              <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
-              </p>
+          <section className="max-w-6xl mx-auto px-8 py-10 lg:py-14">
+            <div className="flex flex-col lg:flex-row lg:items-center gap-10">
+              {/* Left: image at natural proportions */}
+              <div className="w-full lg:w-1/2">
+                <img
+                  src="/hero-image.png.png"
+                  alt="A dad helping his son with AI tutoring"
+                  className="w-full h-auto"
+                />
+              </div>
+              {/* Right: text */}
+              <div className="w-full lg:w-1/2 text-center lg:text-left">
+                <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
+                  AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
+                </h1>
+                <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+                  I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
+                </p>
+              </div>
             </div>
           </section>
         </div>
