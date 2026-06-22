@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
       <div className="px-6 py-4 flex items-center justify-between">
-        <span className="text-sm font-medium text-gray-800">bestaitutoring.com</span>
+        <a href="#" className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors">bestaitutoring.com</a>
 
         {/* Desktop links — hidden below sm */}
         <div className="hidden sm:flex items-center gap-6">
