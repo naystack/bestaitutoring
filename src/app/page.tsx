@@ -7,19 +7,19 @@ export default function Home() {
 
       <main className="bg-white text-neutral-900">
 
-        {/* 1. Hero — slate-50 full bleed, two-column on md+ */}
+        {/* 1. Hero — slate-50 full bleed, two-column on lg+ */}
         <div className="bg-slate-50">
-          <section className="flex flex-col md:flex-row md:items-center min-h-96">
-            {/* Left: image anchored to left edge */}
-            <div className="w-full md:w-1/2 pl-6 md:pl-8 pr-0 py-10 md:py-0 flex items-center">
+          <section className="flex flex-col lg:flex-row lg:items-stretch">
+            {/* Left: image column, fixed height on all sizes */}
+            <div className="w-full lg:w-1/2 h-72 lg:h-96 overflow-hidden">
               <img
                 src="/hero-image.png.png"
                 alt="A dad helping his son with AI tutoring"
-                className="w-full h-auto rounded-lg"
+                className="w-full h-full object-cover"
               />
             </div>
             {/* Right: text with breathing room */}
-            <div className="w-full md:w-1/2 px-6 md:pl-12 md:pr-16 py-10 md:py-16 text-center md:text-left flex flex-col justify-center">
+            <div className="w-full lg:w-1/2 px-6 lg:pl-12 lg:pr-16 py-10 lg:py-16 text-center lg:text-left flex flex-col justify-center">
               <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
                 AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
               </h1>
