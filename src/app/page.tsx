@@ -10,8 +10,8 @@ export default function Home() {
         {/* 1. Hero — full viewport width, image left edge aligns with nav */}
         <div className="bg-white">
           <div className="flex flex-col lg:flex-row lg:items-center w-full py-10 lg:py-14">
-            {/* Left: image — pl matches nav px-6/px-8 exactly */}
-            <div className="w-full lg:w-1/2 pl-6 lg:pl-8">
+            {/* Left: image — pl matches nav pl-16 exactly, capped at md width */}
+            <div className="w-full lg:w-1/2 pl-16 max-w-md">
               <img
                 src="/hero-image.png.png"
                 alt="A dad helping his son with AI tutoring"
