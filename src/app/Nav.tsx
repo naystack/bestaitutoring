@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
-      <div className="pl-16 pr-6 py-4 flex items-center justify-between">
+      <div className="max-w-4xl mx-auto px-8 py-4 flex items-center justify-between">
         <a href="#" className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors">bestaitutoring.com</a>
 
         {/* Desktop links — hidden below sm */}
@@ -38,7 +38,7 @@ export default function Nav() {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="sm:hidden border-t border-gray-100 px-6 py-3 flex flex-col gap-1">
+        <div className="sm:hidden border-t border-gray-100 px-8 py-3 flex flex-col gap-1">
           <a href="#definition" onClick={() => setOpen(false)} className="text-sm text-gray-600 hover:text-gray-900 transition-colors py-2">My Definition</a>
           <a href="#ruled-out" onClick={() => setOpen(false)} className="text-sm text-gray-600 hover:text-gray-900 transition-colors py-2">Ruled Out</a>
           <a href="#top-picks" onClick={() => setOpen(false)} className="text-sm text-gray-600 hover:text-gray-900 transition-colors py-2">Top Picks</a>
