@@ -64,8 +64,11 @@ export default function Privacy() {
           <section>
             <h2 className="text-lg font-semibold text-neutral-900 mb-2">Questions</h2>
             <p>
-              This is a one-person site. If you have questions about how your data is handled, the best way
-              to reach me is through the contact information listed on this site.
+              If you have questions about how your data is handled, you can reach me at{" "}
+              <a href="mailto:hello@bestaitutoring.com" className="text-indigo-600 hover:text-indigo-800 underline">
+                hello@bestaitutoring.com
+              </a>
+              .
             </p>
           </section>
 
