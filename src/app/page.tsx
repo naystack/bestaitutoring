@@ -12,11 +12,11 @@ export default function Home() {
           <section className="max-w-6xl mx-auto px-8 py-10 lg:py-14">
             <div className="flex flex-col lg:flex-row lg:items-center gap-10">
               {/* Left: image at natural proportions, constrained width, left-anchored */}
-              <div className="w-4/5 lg:w-auto lg:max-w-lg ml-0 mr-auto lg:pl-4 flex-shrink-0">
+              <div className="lg:w-auto lg:max-w-sm ml-0 mr-auto lg:pl-2 flex-shrink-0">
                 <img
                   src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
-                  className="w-full h-auto"
+                  className="w-4/5 lg:w-full h-auto max-h-64 lg:max-h-none ml-0 mr-auto"
                 />
               </div>
               {/* Right: text */}
