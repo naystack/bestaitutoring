@@ -11,8 +11,8 @@ export default function Home() {
         <div className="bg-slate-50">
           <section className="max-w-6xl mx-auto px-8 py-10 lg:py-14">
             <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-              {/* Left: image at natural proportions */}
-              <div className="w-full lg:w-1/2">
+              {/* Left: image at natural proportions, constrained width, left-anchored */}
+              <div className="w-4/5 lg:w-auto lg:max-w-lg ml-0 mr-auto lg:pl-4 flex-shrink-0">
                 <img
                   src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
@@ -20,7 +20,7 @@ export default function Home() {
                 />
               </div>
               {/* Right: text */}
-              <div className="w-full lg:w-1/2 text-center lg:text-left">
+              <div className="w-full text-center lg:text-left">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
                   AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
                 </h1>
