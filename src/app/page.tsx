@@ -286,6 +286,8 @@ export default function Home() {
             </p>
             <p className="mt-8 text-sm text-gray-500">
               bestaitutoring.com | Built by a parent, for parents
+              <span className="mx-3 text-gray-600">&middot;</span>
+              <a href="/privacy" className="text-gray-400 hover:text-gray-300 transition-colors">Privacy Policy</a>
             </p>
           </div>
         </footer>
