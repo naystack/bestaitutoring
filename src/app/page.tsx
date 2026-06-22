@@ -42,7 +42,7 @@ export default function Home() {
                 It&apos;s the only tool I&apos;ve found that explicitly commits to persistent memory of your child&apos;s interests and learning style, not just adaptive difficulty.
               </p>
               <a
-                href="https://wildzebra.com"
+                href="https://wildzebra.com/?utm_source=bestaitutoring&utm_medium=referral&utm_campaign=comparison_site"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
@@ -156,7 +156,7 @@ export default function Home() {
                   </div>
                   <div className="mt-6">
                     <a
-                      href="https://wildzebra.com"
+                      href="https://wildzebra.com/?utm_source=bestaitutoring&utm_medium=referral&utm_campaign=comparison_site"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
