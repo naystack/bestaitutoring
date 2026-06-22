@@ -1,18 +1,9 @@
+import Nav from "./Nav";
+
 export default function Home() {
   return (
     <>
-      {/* Sticky nav */}
-      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-          <span className="text-sm font-medium text-gray-800">bestaitutoring.com</span>
-          <div className="hidden sm:flex items-center gap-6">
-            <a href="#definition" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">My Definition</a>
-            <a href="#ruled-out" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Ruled Out</a>
-            <a href="#top-picks" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">Top Picks</a>
-            <a href="#about" className="text-sm text-gray-600 hover:text-gray-900 transition-colors">About</a>
-          </div>
-        </div>
-      </nav>
+      <Nav />
 
       <main className="bg-white text-neutral-900">
 
