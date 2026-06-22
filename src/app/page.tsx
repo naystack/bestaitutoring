@@ -7,20 +7,20 @@ export default function Home() {
 
       <main className="bg-white text-neutral-900">
 
-        {/* 1. Hero — slate-50 full bleed, two-column on lg+ */}
-        <div className="bg-slate-50">
-          <section className="max-w-6xl mx-auto pl-0 pr-8 py-10 lg:py-14">
+        {/* 1. Hero — white bg for transparent image blending, two-column on lg+ */}
+        <div className="bg-white">
+          <section className="max-w-5xl mx-auto px-6 py-10 lg:py-14">
             <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-              {/* Left: image — dominant 3/5 on desktop, full width on mobile */}
-              <div className="w-full lg:w-3/5">
+              {/* Left: image — 50% on desktop, full width on mobile */}
+              <div className="w-full lg:w-1/2">
                 <img
                   src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
                   className="w-full h-auto"
                 />
               </div>
-              {/* Right: text — 2/5 on desktop */}
-              <div className="w-full lg:w-2/5 px-6 lg:px-0 text-center lg:text-left">
+              {/* Right: text — 50% on desktop */}
+              <div className="w-full lg:w-1/2 px-6 lg:px-0 text-center lg:text-left">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
                   AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
                 </h1>
