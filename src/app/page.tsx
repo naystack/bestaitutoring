@@ -9,23 +9,23 @@ export default function Home() {
 
         {/* 1. Hero — slate-50 full bleed, two-column on md+ */}
         <div className="bg-slate-50">
-          <section className="max-w-4xl mx-auto px-6 py-12">
-            <div className="flex flex-col md:flex-row md:items-center gap-10">
-              <div className="md:w-1/2">
-                <img
-                  src="/hero-image.png.png"
-                  alt="A dad helping his son with AI tutoring"
-                  className="w-full h-auto rounded-lg"
-                />
-              </div>
-              <div className="md:w-1/2 text-center md:text-left">
-                <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
-                  AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
-                </h1>
-                <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                  I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
-                </p>
-              </div>
+          <section className="flex flex-col md:flex-row md:items-center min-h-96">
+            {/* Left: image anchored to left edge */}
+            <div className="w-full md:w-1/2 pl-6 md:pl-8 pr-0 py-10 md:py-0 flex items-center">
+              <img
+                src="/hero-image.png.png"
+                alt="A dad helping his son with AI tutoring"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+            {/* Right: text with breathing room */}
+            <div className="w-full md:w-1/2 px-6 md:pl-12 md:pr-16 py-10 md:py-16 text-center md:text-left flex flex-col justify-center">
+              <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
+                AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
+              </h1>
+              <p className="mt-6 text-lg text-gray-700 leading-relaxed">
+                I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
+              </p>
             </div>
           </section>
         </div>
