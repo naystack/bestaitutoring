@@ -9,15 +9,14 @@ export default function Home() {
 
         {/* 1. Hero — shared max-w-4xl container matches nav exactly */}
         <div className="bg-white">
-          <div className="max-w-5xl mx-auto px-8 py-10 lg:py-14">
-            <div className="flex flex-col lg:flex-row gap-12">
+          <div className="max-w-5xl mx-auto px-8 py-10">
+            <div className="flex flex-col lg:flex-row items-center gap-12">
               {/* Left: image — 1/2 of container */}
-              <div className="w-full lg:w-1/2 mt-0 lg:mt-4">
+              <div className="w-full lg:w-1/2">
                 <img
                   src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
-                  className="w-full h-auto"
-                  style={{marginTop: '-60px'}}
+                  className="w-full h-auto max-h-72 lg:max-h-none object-contain"
                 />
               </div>
               {/* Right: text — 1/2, vertically centered */}
