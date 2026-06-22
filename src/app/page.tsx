@@ -9,18 +9,18 @@ export default function Home() {
 
         {/* 1. Hero — slate-50 full bleed, two-column on lg+ */}
         <div className="bg-slate-50">
-          <section className="max-w-6xl mx-auto px-8 py-10 lg:py-14">
+          <section className="max-w-6xl mx-auto pl-0 pr-8 py-10 lg:py-14">
             <div className="flex flex-col lg:flex-row lg:items-center gap-10">
-              {/* Left: image at natural proportions, constrained width, left-anchored */}
-              <div className="lg:w-auto lg:max-w-sm ml-0 mr-auto lg:pl-2 flex-shrink-0">
+              {/* Left: image — dominant 3/5 on desktop, full width on mobile */}
+              <div className="w-full lg:w-3/5">
                 <img
                   src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
-                  className="w-4/5 lg:w-full h-auto max-h-64 lg:max-h-none ml-0 mr-auto"
+                  className="w-full h-auto"
                 />
               </div>
-              {/* Right: text */}
-              <div className="w-full text-center lg:text-left">
+              {/* Right: text — 2/5 on desktop */}
+              <div className="w-full lg:w-2/5 px-6 lg:px-0 text-center lg:text-left">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
                   AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
                 </h1>
