@@ -13,7 +13,7 @@ export default function Home() {
             <div className="flex flex-col md:flex-row md:items-center gap-10">
               <div className="md:w-1/2">
                 <img
-                  src="/hero-image.png"
+                  src="/hero-image.png.png"
                   alt="A dad helping his son with AI tutoring"
                   className="w-full h-auto rounded-lg"
                 />
