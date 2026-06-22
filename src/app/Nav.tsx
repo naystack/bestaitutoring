@@ -7,7 +7,7 @@ export default function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
-      <div className="max-w-4xl mx-auto px-8 py-4 flex items-center justify-between">
+      <div className="max-w-5xl mx-auto px-8 py-4 flex items-center justify-between">
         <a href="#" className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors">bestaitutoring.com</a>
 
         {/* Desktop links — hidden below sm */}
