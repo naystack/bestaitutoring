@@ -1,8 +1,6 @@
 # Best AI Tutoring
 
-A parent's honest, hands-on comparison of AI tutoring tools for kids,
-built to learn GA4/Meta Pixel/UTM attribution end to end, with Wild Zebra
-as the featured recommendation.
+A parent's hands-on look at AI tutoring tools for kids.
 
 ## Status
 
