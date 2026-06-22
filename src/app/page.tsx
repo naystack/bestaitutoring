@@ -7,8 +7,9 @@ export default function Home() {
 
       <main className="bg-white text-neutral-900">
 
-        {/* 1. Hero — white */}
-        <section className="max-w-4xl mx-auto px-6 pt-16 pb-16">
+        {/* 1. Hero — slate-50 full bleed */}
+        <div className="bg-slate-50">
+        <section className="max-w-4xl mx-auto px-6 pt-12 pb-16">
           <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
             AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
           </h1>
@@ -16,6 +17,7 @@ export default function Home() {
             I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
           </p>
         </section>
+        </div>
 
         {/* Quick Answer callout — white band, indigo card */}
         <div className="px-6 pb-12">
