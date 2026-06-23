@@ -22,10 +22,10 @@ export default function Home() {
               {/* Right: text — 1/2, offset from top */}
               <div className="w-full lg:w-1/2 flex flex-col justify-center pt-8 text-center lg:text-left">
                 <h1 className="text-4xl sm:text-5xl font-bold tracking-tight leading-tight text-neutral-900">
-                  AI is changing education. Most &ldquo;AI tutors&rdquo; are just smarter flashcards.
+                  It&apos;s 2026. Where are the AI Tutors?
                 </h1>
                 <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                  I&apos;m a dad trying to figure this out for my son. Here&apos;s what I found after going deep on the category.
+                  A real AI tutor should know your child, remember them session to session, and push for understanding over answers. That product should exist by now. Surprisingly, it was harder to find than I imagined.
                 </p>
               </div>
             </div>
@@ -37,9 +37,9 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6">
               <p className="text-xs font-semibold uppercase tracking-widest text-indigo-400 mb-2">Quick Answer</p>
-              <p className="text-xl font-semibold text-neutral-900 mb-2">Best AI tutor for kids right now: Wild Zebra</p>
+              <p className="text-xl font-semibold text-neutral-900 mb-2">Best AI tutor today: Wild Zebra</p>
               <p className="text-base text-gray-700 leading-relaxed mb-5">
-                It&apos;s the only tool I&apos;ve found that explicitly commits to persistent memory of your child&apos;s interests and learning style, not just adaptive difficulty.
+                The only tool I&apos;ve found that works like a human tutor, building on what it knows about your child to teach in a way that actually fits them.
               </p>
               <a
                 href="https://wildzebra.com/?utm_source=bestaitutoring&utm_medium=referral&utm_campaign=comparison_site"
