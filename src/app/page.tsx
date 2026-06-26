@@ -53,35 +53,35 @@ export default function Home() {
           </div>
         </div>
 
-        {/* 2. What I mean by AI tutor — bg-gray-50 */}
+        {/* 2. AI Tutors vs. Smarter Flashcards — bg-gray-50 */}
         <div id="definition" className="bg-gray-50">
           <section className="max-w-4xl mx-auto px-6 py-12">
-            <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I mean by AI tutor</h2>
+            <h2 className="text-2xl font-semibold text-neutral-900 mb-5">AI Tutors vs. Smarter Flashcards</h2>
             <p className="text-base text-gray-700 leading-relaxed mb-8">
-              When I say AI tutor, I mean something specific. Not a program that adjusts difficulty on the fly. Not a quiz engine that tracks right and wrong answers. Something closer to what a good human tutor actually does. Here are the three things I used to evaluate everything I looked at.
+              Three things separate them. Most products on the market only have one or two.
             </p>
             <div className="space-y-6">
               <div>
-                <p className="font-semibold text-neutral-900">Customization to your child</p>
+                <p className="font-semibold text-neutral-900">Knows your child, not just their score</p>
                 <p className="mt-1 text-gray-700 leading-relaxed">
-                  Not just adjusting difficulty based on right/wrong answers. Personalizing to how your child thinks, what they&apos;re interested in, and where they get stuck.
+                  Personalizes to how your child thinks, what they&apos;re interested in, and where they get stuck. Not just whether they got the last question right.
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-neutral-900">Persistent memory of your child</p>
+                <p className="font-semibold text-neutral-900">Remembers them session to session</p>
                 <p className="mt-1 text-gray-700 leading-relaxed">
-                  The tutor should know your child over time, not start from scratch every session. Built up gradually, not from a one-off assessment.
+                  Builds understanding of your child over time. Not from a one-off assessment. Not starting from scratch every session.
                 </p>
               </div>
               <div>
-                <p className="font-semibold text-neutral-900">A focus on mastery, not answers</p>
+                <p className="font-semibold text-neutral-900">Pushes for understanding, not just right answers</p>
                 <p className="mt-1 text-gray-700 leading-relaxed">
-                  A tutor pushes back even when your child gets the right answer. Flashcards reward the right answer. A tutor asks &ldquo;how did you get there?&rdquo;
+                  When your child gets the right answer, a tutor asks how they got there. Flashcards reward the right answer. A tutor questions it.
                 </p>
               </div>
             </div>
             <p className="mt-8 text-base text-gray-700 leading-relaxed">
-              By that definition, most products on the market aren&apos;t AI tutors. They&apos;re AI-assisted practice tools. That&apos;s not a bad thing, but it&apos;s a different thing.
+              Most of what&apos;s calling itself an AI tutor today is AI-assisted practice. That&apos;s not a bad thing. But it&apos;s a different thing.
             </p>
           </section>
         </div>
