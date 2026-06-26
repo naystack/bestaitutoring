@@ -93,13 +93,13 @@ export default function Home() {
             <div className="border border-neutral-200 rounded-lg p-5">
               <p className="font-semibold text-neutral-900 mb-2">IXL</p>
               <p className="text-gray-700 leading-relaxed text-base">
-                IXL is genuinely good at what it does. Adaptive difficulty, broad subject coverage, clean interface. But the core loop is: answer questions, get them right, move on. That&apos;s not tutoring, that&apos;s practice. No persistent memory, no interest-based personalization, no Socratic pushback. We use it. I just wouldn&apos;t call it an AI tutor.
+                IXL is genuinely good at what it does. Adaptive difficulty, broad subject coverage, clean interface. But the core loop is answer questions, get them right, move on. That&apos;s not tutoring, that&apos;s practice.
               </p>
             </div>
             <div className="border border-neutral-200 rounded-lg p-5">
               <p className="font-semibold text-neutral-900 mb-2">Photomath</p>
               <p className="text-gray-700 leading-relaxed text-base">
-                Snap a photo of a math problem and get the answer with steps shown. Useful in a pinch. But it&apos;s optimized to give your child the answer fast, which is the opposite of what a tutor should do. If your child uses this for homework, they&apos;re not learning, they&apos;re finishing.
+                Photomath does show its work, which can genuinely help a student understand a solution. But the product is optimized to get your child to the answer fast. If they&apos;re using it for homework, they&apos;re finishing, not learning.
               </p>
             </div>
           </div>
