@@ -47,7 +47,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="inline-block bg-indigo-700 hover:bg-indigo-800 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
               >
-                Try Wild Zebra free for 14 days
+                Check out Wild Zebra
               </a>
             </div>
           </div>
@@ -161,7 +161,7 @@ export default function Home() {
                       rel="noopener noreferrer"
                       className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
                     >
-                      Try Wild Zebra free for 14 days
+                      Check out Wild Zebra
                     </a>
                     <p className="mt-2 text-xs text-neutral-400">14-day free trial, no credit card required.</p>
                   </div>
