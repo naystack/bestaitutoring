@@ -86,7 +86,7 @@ export default function Home() {
           </section>
         </div>
 
-        {/* 3. What I've ruled out — white */}
+        {/* 3. Good Tools. Not Tutors. — white */}
         <section id="ruled-out" className="max-w-4xl mx-auto px-6 py-12">
           <h2 className="text-2xl font-semibold text-neutral-900 mb-5">Good Tools. Not Tutors.</h2>
           <div className="space-y-4">
@@ -105,11 +105,21 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 4. Three tools worth your time — bg-gray-50 */}
-        <div id="top-picks" className="bg-gray-50">
+        {/* 4. The ChatGPT Wrappers — bg-gray-50 */}
+        <div className="bg-gray-50">
+          <section className="max-w-4xl mx-auto px-6 py-12">
+            <h2 className="text-2xl font-semibold text-neutral-900 mb-5">The ChatGPT Wrappers</h2>
+            <p className="text-base text-gray-700 leading-relaxed">
+              Plenty of tools are marketing themselves as AI tutors without meeting any of the three criteria above. Most are ChatGPT wrappers: a clean interface layered on top of a general-purpose AI model. The easiest way to spot one: ask it a question your child already knows the answer to and see what happens. A real tutor asks how they got there. A wrapper just confirms the answer and moves on. Slick interfaces and words like &ldquo;personalized&rdquo; and &ldquo;adaptive&rdquo; don&apos;t change that. If it&apos;s not asking your child questions, it&apos;s not tutoring.
+            </p>
+          </section>
+        </div>
+
+        {/* 5. Product cards — white */}
+        <div id="top-picks" className="bg-white">
           <section className="max-w-4xl mx-auto px-6 py-12">
             <h2 className="text-2xl font-semibold text-neutral-900 mb-8">
-              Three tools worth your time (and one that&apos;s earning the top spot)
+              Where I landed after looking at everything
             </h2>
             <div className="space-y-6">
 
@@ -255,14 +265,6 @@ export default function Home() {
             </div>
           </section>
         </div>
-
-        {/* 5. A note on ChatGPT wrappers — white */}
-        <section className="max-w-4xl mx-auto px-6 py-12">
-          <h2 className="text-2xl font-semibold text-neutral-900 mb-5">A note on ChatGPT wrappers</h2>
-          <p className="text-base text-gray-700 leading-relaxed">
-            You&apos;ll find plenty of other tools calling themselves AI tutors. Most are what I&apos;d call ChatGPT wrappers: a clean interface layered on top of a general-purpose AI model, with no persistent memory of your child and no particular commitment to mastery over answer-getting. TutorAI is a good example. Their own marketing calls it personalized, but there&apos;s nothing in the product that pushes a child to understand why, not just what. That&apos;s not a tutor. That&apos;s a very fast homework helper. The three tools above are the ones I think are actually building toward what AI tutoring should be.
-          </p>
-        </section>
 
         {/* 6. What I'm watching for — bg-gray-50 */}
         <div className="bg-gray-50">
