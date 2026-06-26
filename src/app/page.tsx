@@ -32,7 +32,8 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Quick Answer callout — white band, indigo card */}
+        {/* QUICK ANSWER CARD - commented out for now, uncomment when paid traffic starts */}
+        {/*
         <div className="px-6 pb-12">
           <div className="max-w-4xl mx-auto">
             <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-6">
@@ -52,6 +53,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        */}
 
         {/* 2. AI Tutors vs. Smarter Flashcards — bg-gray-50 */}
         <div id="definition" className="bg-gray-50">
