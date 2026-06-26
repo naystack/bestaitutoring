@@ -121,7 +121,7 @@ export default function Home() {
         <div id="top-picks" className="bg-white">
           <section className="max-w-4xl mx-auto px-6 py-12">
             <h2 className="text-2xl font-semibold text-neutral-900 mb-8">
-              Where I landed after looking at everything
+              The Real Candidates
             </h2>
             <div className="space-y-6">
 
@@ -172,7 +172,6 @@ export default function Home() {
                     >
                       Check out Wild Zebra
                     </a>
-                    <p className="mt-2 text-xs text-neutral-400">14-day free trial, no credit card required.</p>
                   </div>
                 </div>
               </div>
@@ -213,9 +212,9 @@ export default function Home() {
                     href="https://khanmigo.ai"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block border border-neutral-300 hover:border-neutral-400 hover:bg-neutral-50 text-neutral-800 text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
+                    className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
                   >
-                    Try Khanmigo
+                    Check out Khanmigo
                   </a>
                 </div>
               </div>
@@ -256,11 +255,10 @@ export default function Home() {
                     href="https://www.synthesis.com/tutor"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block border border-neutral-300 hover:border-neutral-400 hover:bg-neutral-50 text-neutral-800 text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
+                    className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors"
                   >
-                    Try Synthesis Tutor
+                    Check out Synthesis Tutor
                   </a>
-                  <p className="mt-2 text-xs text-neutral-400">7-day free trial.</p>
                 </div>
               </div>
 
