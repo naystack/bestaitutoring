@@ -271,7 +271,7 @@ export default function Home() {
           <section className="max-w-4xl mx-auto px-6 py-12">
             <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I&apos;m watching for</h2>
             <p className="text-base text-gray-700 leading-relaxed">
-              None of these tools have fully cracked it yet. The version I&apos;m waiting for is an AI tutor with a deep, persistent understanding of my child built over years, not sessions. One that knows he gets frustrated when problems feel arbitrary, that he lights up when math connects to something real, and that he needs to be pushed even when he gets the right answer. That product doesn&apos;t fully exist yet. Wild Zebra is the closest I&apos;ve seen to building toward it.
+              None of these tools have fully cracked it yet. The version I&apos;m waiting for is an AI tutor with a deep, persistent understanding of my child built over years, not sessions. One that knows my son gets frustrated when problems feel arbitrary. That lights up when math connects to something real. That pushes him even when he gets the right answer. That product doesn&apos;t fully exist yet. Wild Zebra is the closest I&apos;ve seen to building toward it.
             </p>
           </section>
         </div>
