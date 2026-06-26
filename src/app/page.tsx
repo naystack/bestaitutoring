@@ -88,10 +88,7 @@ export default function Home() {
 
         {/* 3. What I've ruled out — white */}
         <section id="ruled-out" className="max-w-4xl mx-auto px-6 py-12">
-          <h2 className="text-2xl font-semibold text-neutral-900 mb-5">What I&apos;ve ruled out and why</h2>
-          <p className="text-base text-gray-700 leading-relaxed mb-7">
-            Two well-known names parents ask about:
-          </p>
+          <h2 className="text-2xl font-semibold text-neutral-900 mb-5">Good Tools. Not Tutors.</h2>
           <div className="space-y-4">
             <div className="border border-neutral-200 rounded-lg p-5">
               <p className="font-semibold text-neutral-900 mb-2">IXL</p>
