@@ -25,7 +25,7 @@ export default function Home() {
                   It&apos;s 2026. Where are the AI Tutors?
                 </h1>
                 <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-                  A real AI tutor should know your child, remember them session to session, and push for understanding over answers. That product should exist by now. Surprisingly, it was harder to find than I imagined.
+                  A great human tutor knows your child, remembers them session to session, and pushes for understanding over right answers. Today, all of that should be possible with AI. So where are the AI tutors?
                 </p>
               </div>
             </div>
