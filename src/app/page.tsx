@@ -281,7 +281,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto px-6 py-12">
             <h2 className="text-2xl font-semibold text-white mb-5">About this site</h2>
             <p className="text-base text-gray-300 leading-relaxed">
-              I&apos;m a dad and a marketing operator who spent 12 years scaling growth for tech companies. I built this site to learn about digital attribution and because I got genuinely curious about this category after going deep with several AI tutoring companies. I have no formal affiliation with any of the products listed here. If I earn an affiliate commission from a link on this page, I&apos;ll say so clearly. Right now, I don&apos;t.
+              I&apos;m a dad with a second grader and a career in tech. I know enough about AI to be dangerous, but I&apos;m not an ML engineer or an educator. I built this site after looking at AI tutor options for my son. I couldn&apos;t find a clear definition of what an AI tutor actually is, or should be. Most of what I found was either flashcard apps with AI slapped on, or tools marketing themselves as personalized without explaining what that means. So I wrote down the three things that seemed obvious to me: knows your child, remembers them, pushes for understanding. Maybe I&apos;m missing something? I have no formal affiliation with any of the products listed here. If I earn an affiliate commission from a link on this page, I&apos;ll say so clearly. Right now, I don&apos;t.
             </p>
             <p className="mt-8 text-sm text-gray-500">
               bestaitutoring.com | Built by a parent, for parents
