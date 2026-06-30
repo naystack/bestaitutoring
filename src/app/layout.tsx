@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Best AI Tutoring",
   description:
     "A parent's honest, hands-on look at AI tutoring tools for kids, what's actually changing how children learn.",
+  other: {
+    'facebook-domain-verification': 'dmfjnk4q33xumzd6t9184avwkwyi4v',
+  },
 };
 
 export default function RootLayout({
